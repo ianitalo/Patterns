@@ -14,9 +14,4 @@ abstract class Bar
     public void removeObserver(BarObserver observer) {
         observers.remove(observer);
     }
-    public void notifyObservers() {
-        for (BarObserver observer : observers)
-            if (isHappyHour()) observer.happyHourStarted(this);
-            else observer.happyHourEnded(this);
-    }
 }
