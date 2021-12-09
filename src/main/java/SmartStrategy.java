@@ -30,15 +30,6 @@ public class SmartStrategy implements OrderingStrategy
         a.clear();
         b.clear();
     }
-    public void happyHourStarted(Bar bar) {
-        for(int i = 0; i < a.size() ; i++)
-        {
-            c.get(i).order(a.get(i),b.get(i));
-        }
-        c.clear();
-        a.clear();
-        b.clear();
-    }
 
     @Override
     public void happyHourEnded(StringBar bar) {

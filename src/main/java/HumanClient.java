@@ -7,7 +7,7 @@ public class HumanClient implements Client
     }
     @Override
     public void happyHourStarted(Bar bar) {
-        b.happyHourStarted(bar);
+        b.happyHourStarted((StringBar)bar);
     }
 
     @Override

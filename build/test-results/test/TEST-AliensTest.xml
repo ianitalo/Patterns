@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AliensTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-08T23:11:00" hostname="LAPTOP-CKQCTNKQ" time="0.049">
-  <properties/>
-  <testcase name="ferengiStartClosed()" classname="AliensTest" time="0.044"/>
-  <testcase name="ferengiAlreadyOpened()" classname="AliensTest" time="0.001"/>
-  <testcase name="romulan()" classname="AliensTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

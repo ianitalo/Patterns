@@ -4,5 +4,4 @@ public interface OrderingStrategy
             bar);
     void happyHourStarted(StringBar bar);
     void happyHourEnded(StringBar bar);
-    void happyHourStarted(Bar bar);
 }
